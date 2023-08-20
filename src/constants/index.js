@@ -22,6 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
+
   // threejs,
 } from "../assets";
 
@@ -199,67 +200,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pig Game",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Experience strategic multiplayer dice fun with friends through our captivating Pig Game. JavaScript, HTML, and CSS combine to deliver engaging gameplay and a captivating UI design.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://pig-game-sagar.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Guess My Number",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Embark on a number guessing adventure with our interactive 'Guess My Number' game. Utilize your intuition and logic to crack the hidden number between 0 and 20, wrapped in a user-friendly experience.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://guess-my-number-game-sagar.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Pricing Card",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Enhance your project's aesthetics with our pricing card Tailwind CSS UI component. Seamlessly display pricing plans, making your product's value clear. Elevate design effortlessly.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind-CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+
+    source_code_link: "https://pricing-grid-sagar.vercel.app/",
   },
 ];
 
